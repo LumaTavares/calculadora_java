@@ -8,7 +8,7 @@ public class Model {
          return a - b; 
     }
     public double dividir(int a, int b) { 
-        return b != 0 ? a / b : Double.NaN; 
+        return a/b; 
     }
     public double multiplicar(int a, int b) {
          return a * b; 
